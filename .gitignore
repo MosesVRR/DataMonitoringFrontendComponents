@@ -13,7 +13,6 @@ pids
 *.pid.lock
 
 # Dependency directories
-node_modules/
 jspm_packages/
 
 # Optional npm cache directory
@@ -46,3 +45,6 @@ docker-compose.override.yml
 # Windows
 Thumbs.db
 ehthumbs.db
+
+# Build output
+dist/
