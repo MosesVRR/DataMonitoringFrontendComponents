@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-# Add the build command back
+RUN npm install typescript @vue/cli-plugin-typescript ts-loader @types/node --save-dev
 RUN npm run build
 
 EXPOSE 8080

@@ -13,12 +13,17 @@ module.exports = {
       .test(/\.tsx?$/)
       .use('ts-loader')
       .loader('ts-loader')
+      .options({
+        transpileOnly: true,
+        appendTsSuffixTo: [/\.vue$/]
+      })
       .end();
 
     config.resolve.extensions
       .add('.ts')
       .add('.tsx')
       .add('.js')
+      .add('.vue')
       .add('.json');
   }
 };
