@@ -1,20 +1,13 @@
 <template>
   <div id="app">
-    <h1>Data Monitoring Web Components</h1>
     <MyComponent />
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
-import MyComponent from './components/MyComponent.vue';
-
-export default defineComponent({
-  name: 'App',
-  components: {
-    MyComponent
-  }
-});
+<script>
+export default {
+  name: 'App'
+};
 </script>
 
 <style>
