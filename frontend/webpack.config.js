@@ -1,11 +1,9 @@
 module.exports = {
-    // ...existing code...
     resolve: {
         extensions: ['.ts', '.tsx', '.js', '.json']
     },
     module: {
         rules: [
-            // ...existing code...
             {
                 test: /\.tsx?$/,
                 loader: 'ts-loader',
@@ -13,5 +11,4 @@ module.exports = {
             }
         ]
     }
-    // ...existing code...
 };

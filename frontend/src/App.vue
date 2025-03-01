@@ -1,20 +1,18 @@
 <template>
   <div id="app">
-    <Navbar />
-    <main>
-      <router-view />
-    </main>
+    <h1>Data Monitoring Web Components</h1>
+    <MyComponent />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import Navbar from './components/Navbar.vue';
+import MyComponent from './components/MyComponent.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
-    Navbar
+    MyComponent
   }
 });
 </script>

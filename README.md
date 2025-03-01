@@ -1,6 +1,6 @@
 # Data Monitoring Web Components
 
-This project is a web application for monitoring data using Vue.js and Express.js.
+This project is a collection of Vue.js components for monitoring data.
 
 ## Setup Instructions
 
